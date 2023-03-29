@@ -1,0 +1,26 @@
+.features {
+  padding-bottom: 128px;
+  &__title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 62px;
+    color: rgba(255, 255, 255, 0.75);
+  }
+
+  .features__options {
+    display: flex;
+    justify-content: flex-end;
+    padding-bottom: 33px;
+
+    &__arrows {
+      margin-left: 35px;
+      display: flex;
+      align-items: center;
+      gap: 27px;
+
+      img {
+        cursor: pointer;
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+.recent__card {
+  border-radius: 8px;
+  width: 352px;
+  user-select: none;
+
+
+  &__info {
+    padding-top: 22px;
+
+    &__suptitle {
+      font-family: 'JosefinLight', sans-serif;
+      font-weight: 600;
+      font-size: 18px;
+      color: rgba(255, 255, 255, 0.75);
+      padding-bottom: 15px;
+    }
+
+
+    &__price {
+      display: flex;
+      align-items: center;
+
+      span {
+        font-family: 'PoppinsLight', sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF;
+        margin-left: 5px;
+      }
+    }
+  }
+
+}

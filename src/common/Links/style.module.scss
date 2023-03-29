@@ -1,0 +1,16 @@
+.link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  color: rgba(255, 255, 255, 0.75);
+  background: none;
+  border: 0;
+  cursor: pointer;
+
+  img {
+    margin-left: 12px;
+  }
+}
