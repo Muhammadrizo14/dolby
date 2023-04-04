@@ -35,6 +35,17 @@ function Recent() {
           prevEl: ".recent-card-prev",
         }}
         modules={[Navigation]}
+        breakpoints={{
+          300: {
+            slidesPerView: 0,
+          },
+          926: {
+            slidesPerView: 2,
+          },
+          1408: {
+            slidesPerView: 3,
+          }
+        }}
       >
         <SwiperSlide>
           <RecentCard image={f} price={1123} />

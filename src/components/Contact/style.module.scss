@@ -27,6 +27,13 @@
     width: 700px;
     margin: 0 auto;
 
+    @media (max-width: 1090px) {
+      & {
+        width: auto;
+        max-width: 700px;
+      }
+    }
+
     &::before {
       content: "";
       background: #fff;

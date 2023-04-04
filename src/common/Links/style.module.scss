@@ -10,7 +10,24 @@
   border: 0;
   cursor: pointer;
 
+  &:hover>img {
+    animation: anim 1s normal;
+  }
+
   img {
     margin-left: 12px;
+  }
+
+  @keyframes anim {
+    0% {
+      margin-left: 12px;
+    }
+
+    50% {
+      margin-left: 48px;
+    }
+    100% {
+      margin-left: 12px;
+    }
   }
 }

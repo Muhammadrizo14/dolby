@@ -7,7 +7,6 @@ import gsap from "gsap";
 
 
 const Banner: React.FC = () => {
-
   const bannerInfoUptitle = useRef<HTMLParagraphElement>(null)
   const bannerInfoTitle = useRef<HTMLHeadingElement>(null)
   const bannerInfoSubTitle = useRef<HTMLParagraphElement>(null)
@@ -86,7 +85,7 @@ const Banner: React.FC = () => {
           </ul>
         </div>
         <div className={styles.banner__image} ref={imageRight}>
-          <MouseParallaxChild factorX={1} factorY={1}>
+          <MouseParallaxChild factorX={2} factorY={2}>
             <img src={banner} alt="" />
           </MouseParallaxChild>
         </div>

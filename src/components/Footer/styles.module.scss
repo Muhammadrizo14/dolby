@@ -5,6 +5,11 @@ footer {
 
   .footer__community {
     margin-right: 168px;
+    @media (max-width: 1090px) {
+      & {
+        margin-right: 0px;
+      }
+    }
     &__title {
       font-family: 'Poppins', sans-serif;
       font-weight: 700;
@@ -36,6 +41,12 @@ footer {
     max-width: 80%;
     margin: 0 auto;
     display: flex;
+    @media (max-width: 1090px) {
+      & {
+        flex-direction: column;
+        gap: 30px;
+      }
+    }
   }
 
   .footer__lists {

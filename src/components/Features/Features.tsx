@@ -35,6 +35,20 @@ function Features() {
           prevEl: ".image-swiper-button-prev",
         }}
         modules={[Navigation]}
+        breakpoints={{
+          0: {
+            slidesPerView: 1
+          },
+          600: {
+            slidesPerView: 2
+          },
+          1000: {
+            slidesPerView: 3
+          },
+          1500: {
+            slidesPerView: 4.5
+          }
+        }}
       >
         <SwiperSlide>
           <FeaturesCard image={f} price={1123} />

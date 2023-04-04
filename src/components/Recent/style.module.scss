@@ -8,6 +8,13 @@
     align-items: center;
     padding-bottom: 68px;
 
+    @media (max-width: 1090px) {
+      & {
+        flex-direction: column;
+        gap: 30px;
+      }
+    }
+
     &__title {
       font-weight: 700;
       font-size: 36px;
