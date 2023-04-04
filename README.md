@@ -2,7 +2,12 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-<img src="src/assets/img/screen.png">
+# <a  href="https://dolby-beta.vercel.app/" target="_bank" title="https://dolby-beta.vercel.app/">https://dolby-beta.vercel.app/</a>
+
+
+<a href="https://dolby-beta.vercel.app/" target="_bank" title="https://dolby-beta.vercel.app/">
+  <img src="src/assets/img/screen.png">
+</a>
 
 ## Available Scripts
 
